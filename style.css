@@ -8,36 +8,41 @@
     display: inline-block;
 
 }
+/* dimensioni e stile di ogni singola casella */
 .casella {
     width: 200px;
     height: 300px;
     display: inline-block;
     position: relative;
     z-index: 1;
-
-
+    border: 1px solid black;
+    margin: 2px;
 }
-
-.riga-blocco .casella:first-child{
+/* immagine della prima casella di ogni riga */
+.casella:first-child{
     background-image: url(img/pc.jpg);
 }
-
-.riga-blocco .casella:nth-child(2){
+/* immagine della seconda casella di ogni riga */
+.casella:nth-child(2){
     background-image: url(img/pixel.jpg);
 }
-
-.riga-blocco .casella:nth-child(3){
+/* immagine della terza casella di ogni riga */
+.casella:nth-child(3){
     background-image: url(img/earbuds.jpg)
 }
-
+/* posizionamento dello sconto all'interno dei blocchi e stile normale */
 .sconto {
     display: inline-block;
     position: absolute;
     z-index: 2;
     right: 0;
-    background-color: white;
-}
+    background-color: red;
+    }
 
+[title]{
+    background-color: green;
+}
+/* stile del cuore */
 .cuore {
     display: inline-block;
     position: absolute;
@@ -48,7 +53,7 @@
     opacity: 0;
     font-size: 300px;
 }
-
+/* hover */
 .casella:hover .cuore {
     opacity: 1;
 }
