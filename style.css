@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.riga-blocco {
+    display: inline-block;
+
+}
+.casella {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.riga-blocco .casella:first-child{
+    background-color: red;
+}
+
+.riga-blocco .casella:nth-child(2){
+    background-color: blue;
+}
+
+.riga-blocco .casella:nth-child(3){
+    background-color: lightgreen;
+}
+
+.sconto {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    background-color: white;
+}
+
+.cuore {
+    display: inline-block;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    bottom: 0;
+    color: red;
+    opacity: 0;
+
+}
+
+.casella:hover .cuore {
+    opacity: 1;
+}
