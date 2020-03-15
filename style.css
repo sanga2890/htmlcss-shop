@@ -19,15 +19,15 @@
 }
 
 .riga-blocco .casella:first-child{
-    background-color: red;
+    background-image: url(img/pc.jpg);
 }
 
 .riga-blocco .casella:nth-child(2){
-    background-color: blue;
+    background-image: url(img/pixel.jpg);
 }
 
 .riga-blocco .casella:nth-child(3){
-    background-color: lightgreen;
+    background-image: url(img/earbuds.jpg)
 }
 
 .sconto {
@@ -46,7 +46,7 @@
     bottom: 0;
     color: red;
     opacity: 0;
-
+    font-size: 300px;
 }
 
 .casella:hover .cuore {
