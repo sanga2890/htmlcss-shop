@@ -5,15 +5,29 @@
 }
 
 main{
-    height: : 100vh;
+
     background-color: lightgrey;
+    position: relative;
+    height: 100vh;
     text-align: center;
-    margin: 20px;
-    padding: 10px;
+
+
 }
 
+#container {
+    height: 690px;
+    width:640px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
 .riga-blocco {
-    display: inline-block;
+    margin-top: 20px;
 }
 /* dimensioni e stile di ogni singola casella */
 .casella {
