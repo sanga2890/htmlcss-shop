@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+main{
+    height: : 100vh;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
 .riga-blocco {
     display: inline-block;
-
 }
 /* dimensioni e stile di ogni singola casella */
 .casella {
